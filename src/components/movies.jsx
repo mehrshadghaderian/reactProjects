@@ -15,6 +15,7 @@ class Movies extends Component {
   componentDidMount() {
     this.setState({ movies: getMovies(), genres: getGenres() });
   }
+  //video 68
   handleLike = (m) => {
     const movies = [...this.state.movies];
     const index = movies.indexOf(m);

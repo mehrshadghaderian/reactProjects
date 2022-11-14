@@ -4,7 +4,7 @@ const Pagination = (props) => {
   const { itemsCount, pageSize, currentPage, onPageChange } = props;
   const pagesCount = Math.ceil(itemsCount / pageSize);
   if (pagesCount <= 1) return null;
-  // fifth problem i dont understand very well down line
+  // fifth problem i dont understand very well down line film 68
   //bug1 if i delete page number2 everything will disappear
   const pages = _.range(1, pagesCount + 1);
   return (
